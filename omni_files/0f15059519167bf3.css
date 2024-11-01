@@ -1,0 +1,124 @@
+.Home_container__bCOhY { 
+    padding: 0; 
+}
+.Home_header__GCVRv { 
+    padding: 2rem; 
+    display: flex; 
+}
+.Home_nav__vYbrQ { 
+    flex-grow: 0; 
+    margin-left: auto; 
+    display: flex; 
+    flex-direction: row; 
+    gap: .75rem; 
+}
+.Home_nav__vYbrQ a:hover { 
+    opacity: .5; 
+}
+.Home_main__nLjiQ { 
+    padding: 0; 
+    flex: 1 1; 
+    flex-direction: column; 
+    position: relative; 
+}
+.Home_main__nLjiQ, .Home_stores__dPgAo { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.Home_stores__dPgAo { 
+    flex-wrap: wrap; 
+    max-width: 800px; 
+    gap: 8px; 
+    padding: 2rem 0; 
+}
+.Home_stores__dPgAo img, .tooo { 
+    transition: all .3s ease-in-out; 
+    transform: scale(1); 
+}
+.one:hover img, .one:hover .tooo { 
+    opacity: .5; 
+}
+.two:hover img, .two:hover .tooo { 
+    opacity: .5; 
+}
+.Home_stores__dPgAo a:hover img, .Home_stores__dPgAo a:hover .tooo { 
+    cursor: pointer; 
+    opacity: 1; 
+    transform: scale(1.05); 
+}
+.Home_phone__F9sBR { 
+    max-width: 600px; 
+    position: relative; 
+    z-index: 10; 
+}
+.Home_tapes__99vCZ { 
+    position: relative; 
+    overflow-x: hidden; 
+    width: 100vw; 
+    position: absolute; 
+    top: 50%; 
+}
+.Home_tapes__99vCZ span { 
+    display: inline-block; 
+    white-space: nowrap; 
+    font-family: GT Planar; 
+    font-style: italic; 
+    font-weight: 900; 
+    font-size: 72px; 
+    line-height: 1em; 
+    letter-spacing: -.02em; 
+    background: linear-gradient(180deg, #8000ff, rgba(128, 0, 255, .5)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    text-fill-color: transparent; 
+    opacity: .88; 
+}
+.Home_footer____T7K { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1 1; 
+    padding: 2rem; 
+    border-top: 1px solid #333; 
+    justify-content: flex-start; 
+    align-items: center; 
+    color: #444; 
+    font-size: .75rem; 
+    line-height: 1.5rem; 
+}
+.Home_footer____T7K h4, .Home_footer____T7K p { 
+    margin: 0; 
+    max-width: 800px; 
+    text-align: center; 
+}
+.Home_footer____T7K h4 { 
+    margin-top: 1rem; 
+}
+.Home_footer____T7K ul { 
+    list-style: none; 
+}
+.Home_footer____T7K a { 
+    text-decoration: underline; 
+}
+.Home_title__T09hD { 
+    margin: 0; 
+    line-height: 1.15; 
+    font-size: 4rem; 
+    text-align: center; 
+}
+.Home_title__T09hD span:nth-child(3) { 
+    color: #710ce2; 
+}
+@media (max-width: 600px) { 
+    .Home_title__T09hD { 
+        font-size: 3rem; 
+    }
+    .Home_phone__F9sBR img, .tooo { 
+        max-width: 320px; 
+        height: auto; 
+    }
+    .Home_tapes__99vCZ span { 
+        font-size: 48px; 
+    } 
+}
